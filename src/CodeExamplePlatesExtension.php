@@ -1,4 +1,6 @@
-<?php namespace TapestryCloud;
+<?php
+
+namespace TapestryCloud\CodeExample;
 
 use League\Plates\Engine;
 use League\Plates\Extension\ExtensionInterface;

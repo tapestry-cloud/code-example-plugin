@@ -6,7 +6,6 @@ use League\Container\ServiceProvider\AbstractServiceProvider;
 use League\Container\ServiceProvider\BootableServiceProviderInterface;
 use Tapestry\Entities\Configuration;
 use Tapestry\Plates\Engine;
-use TapestryCloud\CodeExamplePlatesExtension;
 
 class ServiceProvider extends AbstractServiceProvider implements BootableServiceProviderInterface
 {
