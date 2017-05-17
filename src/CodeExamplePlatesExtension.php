@@ -34,11 +34,10 @@ class CodeExamplePlatesExtension implements ExtensionInterface
      */
     public function codeExample($file)
     {
-        $this->codeExamplesPath = __DIR__ . '/../source/_code-examples/' . $file;
-        if (! file_exists($this->codeExamplesPath)) {
-            throw new \Exception('File ['. $this->codeExamplesPath .'] does not exist.');
+        if (!file_exists($this->codeExamplesPath . $file)) {
+            throw new \Exception('File [' . $this->codeExamplesPath . $file . '] does not exist.');
         }
 
-        return htmlentities(file_get_contents($this->codeExamplesPath));
+        return htmlentities(file_get_contents($this->codeExamplesPath . $file));
     }
 }
