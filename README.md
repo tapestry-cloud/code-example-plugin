@@ -1,4 +1,10 @@
 # Tapetry Asset Plugin
+[![Packagist](https://img.shields.io/packagist/v/tapestry-cloud/code-example-plugin.svg?style=flat-square)](https://packagist.org/packages/tapestry-cloud/code-example-plugin)
+[![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%205.6-8892BF.svg?style=flat-square)](https://php.net/)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
+[![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)](https://gitmoji.carloscuesta.me)
+[![ghit.me](https://ghit.me/badge.svg?repo=tapestry-cloud/code-example-plugin)](https://ghit.me/repo/tapestry-cloud/code-example-plugin)
+
 
 ## Install
 
